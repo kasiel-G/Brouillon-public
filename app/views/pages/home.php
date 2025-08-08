@@ -11,7 +11,7 @@
         <div class="aPropos boxAcc" data-aos="fade-down"
         data-aos-easing="linear"
         data-aos-duration="1500">
-            <img src="studying.jpg" alt="olona curieux">
+            <img src="./public/assets/IMG/studying.jpg" alt="olona curieux">
             <div class="popo Text">
                 <h5>Qui sommes nous?</h5>
                 <p>Nous sommes un site gratuit pour apprendre l'Anglais et le français gratuitement et en ligne, apprenez de n'importe où gratuitement chez nous.</p>
@@ -29,13 +29,13 @@
                     <li><p>et commencer à apprendre...</p></li>
                 </ul> 
             </div>
-            <img src="study group.jpg" alt="olona manao solomaso">
+            <img src="./public/assets/IMG/study group.jpg" alt="olona manao solomaso">
         </div>
 
         <div class="avantages boxAcc" class="comment boxAcc" data-aos="fade-up"
         data-aos-easing="linear"
         data-aos-duration="1500">
-            <img src="study group2.jpg" alt="olona falifaly">
+            <img src="./public/assets/IMG/study group2.jpg" alt="olona falifaly">
             <div class="avant Text">
 
                 <h5>apprenez en vous amusant!!!</h5>
@@ -48,5 +48,6 @@
         data-aos-easing="linear"
         data-aos-duration="1500">
             <h4>Alors? qu'attendez-vous pour nous rejoindre??</h4>
-            <img src="questioning.jpg" alt="perxplexe">
+            <img src="./public/assets/IMG/questioning.jpg" alt="perxplexe">
         </div>
+</section>

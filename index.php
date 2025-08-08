@@ -15,7 +15,8 @@ require_once 'router/router.php';
         require 'app/views/INC/header.php';
     ?>
     <?php
-        $page = router();
+        // $page = router();
+        require 'app/views/pages/home.php';
     ?>
 
     <?php

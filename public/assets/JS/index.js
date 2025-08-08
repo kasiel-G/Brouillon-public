@@ -20,3 +20,9 @@ console.log(menuButton, closeButton, checkbutton);
         body.classList.toggle('overlay');
 
    })
+   let buttonscroll = document.getElementById('logoBox');
+   buttonscroll.addEventListener('click',(e)=> {
+       e.preventDefault();
+       footer = document.querySelector('footer');
+       footer.classList.toggle('active');
+   }); 
