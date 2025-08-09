@@ -16,8 +16,7 @@ $page = router();
         require 'app/views/INC/header.php';
     ?>
     <?php
-        require $page;
-        
+        require $page;   
     ?>
 
     <?php
