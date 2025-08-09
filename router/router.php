@@ -15,7 +15,7 @@ function router (){
 
     
     if (!file_exists($page_active)) {
-        $page_active = "../app/views/pages/not-found.php";
+        $page_active = "./app/views/pages/not-found.php";
     }
     return $page_active;
 }
