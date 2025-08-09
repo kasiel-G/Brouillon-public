@@ -1,12 +1,11 @@
-<header>
+<header id="header">
         <label for="checkbutton">
             <img src="./public/assets/IMG/Menu-icon.webp" alt="Menu-icon" id="menu-icon">
-            <!-- <img src="Close-icon.webp" alt="Close-icon" id="close-icon"> -->
         </label>
         <input type="checkbox" name="checkbutton" id="checkbutton">
         <nav>
             <ul>
-                <li><a href="./app/views/INC/login.php" class="login">Log in</a></li>
+                <li><a href="" class="login">Log in</a></li>
                 <li><a href="" class="start">start learning</a></li>
                 <li class="logo"><a href="" id="logo">sch<br><span>wa</span></a></li>
             </ul>

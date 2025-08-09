@@ -1,4 +1,4 @@
-<footer class="active">
+<footer class="active2">
         <div class="logo" id="logoBox">
             <a href="" id="logo2">sch<br><span>wa</span></a>
         </div>   

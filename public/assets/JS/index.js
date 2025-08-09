@@ -3,6 +3,7 @@ let closeButton = document.getElementById('close-icon');
 let checkbutton = document.getElementById('checkbutton');
 let menu = document.getElementsByClassName('menu');
 let body = document.querySelector('body');
+let overlay = document.getElementById('overlay');
 
 console.log(menuButton, closeButton, checkbutton);
    menuButton.addEventListener('click', () =>{
@@ -10,19 +11,19 @@ console.log(menuButton, closeButton, checkbutton);
         closeButton.style.display = 'block';
         console.log(menu);
         menu[0].classList.toggle('active');
-        body.classList.toggle('overlay');
-     //    footer.classList.toggle('overlay');
+        overlay.classList.toggle('overlay');
    })
    closeButton.addEventListener('click', () =>{
         closeButton.style.display = 'none';
         menuButton.style.display = 'block';
         menu[0].classList.toggle('active');
-        body.classList.toggle('overlay');
+        overlay.classList.toggle('overlay');
 
    })
+
    let buttonscroll = document.getElementById('logoBox');
    buttonscroll.addEventListener('click',(e)=> {
        e.preventDefault();
        footer = document.querySelector('footer');
-       footer.classList.toggle('active');
+       footer.classList.toggle('active2');
    }); 
