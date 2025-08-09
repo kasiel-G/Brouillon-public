@@ -1,13 +1,13 @@
 <?php
-require_once 'router/router.php';
-$page = router();
+require 'config/app.php';
+require 'router/router.php';
 ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title><?= APP_NAME ;?></title>
     <link rel="stylesheet" href="./public/assets/style/style.css">
     <link rel="stylesheet" href="./public/assets/style/aos.css">
 </head>
@@ -16,6 +16,7 @@ $page = router();
         require 'app/views/INC/header.php';
     ?>
     <?php
+    $page = router();
         require $page;   
     ?>
 
