@@ -157,7 +157,7 @@ footer .logo{
     font-weight: bold;
     text-align: center;
 }
-footer .logo #logo {
+footer .logo #logo2{
     font-size: 3vw;
     line-height: 1vw;
     color: #F0DE36;
@@ -165,7 +165,7 @@ footer .logo #logo {
     right: .5vw;
     text-decoration: none;
 }
-footer .logo #logo  span{
+footer .logo #logo2  span{
     color: #D71313;
     position: relative;
     left: 2vw;
@@ -232,7 +232,7 @@ footer h5{
 
 /* css acceuil */
 .acceuil {
-    width: 90%;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -331,7 +331,7 @@ footer h5{
 }
 .active{
     /* display: none; */
-    height: 7vw;
+    height: 6vw;
 }
 
 @keyframes glow {

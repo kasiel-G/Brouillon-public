@@ -1,6 +1,6 @@
 <footer class="active">
-        <div class="logo">
-            <a href="" id="logoBox">sch<br><span>wa</span></a>
+        <div class="logo" id="logoBox">
+            <a href="" id="logo2">sch<br><span>wa</span></a>
         </div>   
         <div class="linkboxs">
             <div class="links">

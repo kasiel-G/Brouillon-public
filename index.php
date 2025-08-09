@@ -1,5 +1,6 @@
 <?php
 require_once 'router/router.php';
+$page = router();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -15,8 +16,8 @@ require_once 'router/router.php';
         require 'app/views/INC/header.php';
     ?>
     <?php
-        // $page = router();
-        require 'app/views/pages/home.php';
+        require $page;
+        
     ?>
 
     <?php

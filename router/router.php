@@ -10,7 +10,7 @@ function router (){
     }
     $page = $uri =="/" ? "home" : trim($uri, '/');
 
-    $page_active ="../app/views/pages/".$page.".php";
+    $page_active ="app/views/pages/".$page.".php";
     echo $page_active;
 
     
