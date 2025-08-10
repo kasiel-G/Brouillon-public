@@ -1,15 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><?= APP_NAME ;?></title>
+    <link rel="stylesheet" href="../../../public/assets/style/style.css">
+</head>
+<body>
+    
 <section id="overlay"></section>
 <section id="inscription" class="inscription">
-        <img src="presentatrice 1.png" alt="">
+        <img src="../../../public/assets/IMG/presentatrice 1.png" alt="">
         <div class="loginbox">
             <div class="IntLogin">
                 <h2> Inscris-toi pour avoir accès a nos cours gratuits</h2>
                 <div class="google">
-                    <img src="google-icon-svgrepo-com.svg" alt="Google-icon">
+                    <img src="../../../public/assets/IMG/google-icon-svgrepo-com.svg" alt="Google-icon">
                     <p>Inscris-toi avec Google</p>
                 </div>
                 <div class="facebook">
-                    <img src="facebook-icon-white-logo-svgrepo-com.svg" alt="Facebook-icon" style="width: 2.5vw;">
+                    <img src="../../../public/assets/IMG/facebook-icon-white-logo-svgrepo-com.svg" alt="Facebook-icon" style="width: 2.5vw;">
                     <p>Inscris-toi avec Facebook</p>
                 </div>
             </div>
@@ -36,3 +46,8 @@
             </form>
         </div>
     </section>
+
+    <script src="./public/assets/JS/index.js"></script>
+    <script src="./public/assets/JS/aos.js"></script>
+</body>
+</html>

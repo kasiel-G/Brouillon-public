@@ -1,6 +1,7 @@
 <?php
 require 'config/app.php';
 require 'router/router.php';
+$page = router();
 ?>
 <!DOCTYPE html>
 <html lang="en">
@@ -16,7 +17,6 @@ require 'router/router.php';
         require 'app/views/INC/header.php';
     ?>
     <?php
-    $page = router();
         require $page;   
     ?>
 
