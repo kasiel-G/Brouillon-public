@@ -27,4 +27,5 @@
                 <li><a href="">Revenir en haut</a></li>
             </div>
         </div>
+        <p class="copyright">copyright @ 2025 - Kasiel</p>
     </footer>

@@ -4,17 +4,18 @@
 <section id="acceuil" class="acceuil">
         <h2 data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="1500" >tongasoa,welcome,bienvenue</h2>
+        data-aos-duration="1500" >Tongasoa, Welcome, Bienvenue</h2>
         <h4 data-aos="fade-down"
         data-aos-easing="linear"
-        data-aos-duration="1500">Venez apprendre avec nous :3!!</h4>
-        <div class="aPropos boxAcc" data-aos="fade-down"
+        data-aos-duration="1500">Venez apprendre avec nous :3!</h4>
+        <div class="aPropos boxAcc" data-aos="fade-right"
         data-aos-easing="linear"
-        data-aos-duration="1500">
+        data-aos-duration="1500"
+        data-aos-delay="1600">
             <img src="./public/assets/IMG/studying.jpg" alt="olona curieux">
             <div class="popo Text">
                 <h5>Qui sommes nous?</h5>
-                <p>Nous sommes un site gratuit pour apprendre l'Anglais et le français gratuitement et en ligne, apprenez de n'importe où gratuitement chez nous.</p>
+                <p>Schwa est une plateforme gratuite dédiée à l'apprentissage de la langue anglaise. Nous croyons que l'éducation doit être accessible à tous. <br> Apprenez de n'importe où grace à <span>schwa</span></p>
             </div>
         </div>
 
@@ -25,7 +26,7 @@
                 <h5>comment nous rejoindre??</h5>
                 <p>Juste avec quelques clics:</p> 
                 <ul>
-                    <li><p>créér votre compte</p></li>
+                    <li><p>créez votre compte</p></li>
                     <li><p>et commencer à apprendre...</p></li>
                 </ul> 
             </div>
