@@ -1,13 +1,12 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?= APP_NAME ;?></title>
-    <link rel="stylesheet" href="../../../public/assets/style/style.css">
 </head>
 <body>
-    
+     -->
 <section id="overlay"></section>
 <section id="inscription" class="inscription">
         <img src="../../../public/assets/IMG/presentatrice 1.png" alt="">
@@ -47,7 +46,3 @@
         </div>
     </section>
 
-    <script src="./public/assets/JS/index.js"></script>
-    <script src="./public/assets/JS/aos.js"></script>
-</body>
-</html>

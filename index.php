@@ -11,6 +11,7 @@ $page = router();
     <title><?= APP_NAME ;?></title>
     <link rel="stylesheet" href="./public/assets/style/style.css">
     <link rel="stylesheet" href="./public/assets/style/aos.css">
+    <link rel="stylesheet" href="../../../public/assets/style/style.css">
 </head>
 <body>
     <?php
@@ -25,8 +26,10 @@ $page = router();
     ?>
     <script src="./public/assets/JS/index.js"></script>
     <script src="./public/assets/JS/aos.js"></script>
+    <script src="../../../public/assets/JS/index.js"></script>
+
     <script>
         AOS.init();
-      </script>
+    </script>
 </body>
 </html>

@@ -15,9 +15,9 @@
             <div class="socials">
                 <ul>
                     <h5>Profil createur</h5>
-                    <li><a href=""><img src="./public/assets/IMG/facebook-icon-white-logo-svgrepo-com.svg" alt="Facebook" style="width: 1.5vw;"> facebook</a></li>
-                    <li><a href=""><img src="./public/assets/IMG/whatsapp-color-svgrepo-com.svg" alt="whatsapp">twitter</a></li>
-                    <li><a href=""><img src="./public/assets/IMG/instagram-1-svgrepo-com.svg" alt="Instagram">instagram</a></li>
+                    <li><a href=""><img src="<?= APP_URL ;?>/public/assets/IMG/facebook-icon-white-logo-svgrepo-com.svg" alt="Facebook" style="width: 1.5vw;"> facebook</a></li>
+                    <li><a href=""><img src="<?= APP_URL ;?>/public/assets/IMG/whatsapp-color-svgrepo-com.svg" alt="whatsapp">twitter</a></li>
+                    <li><a href=""><img src="<?= APP_URL ;?>/public/assets/IMG/instagram-1-svgrepo-com.svg" alt="Instagram">instagram</a></li>
                 </ul>
             </div>
             <div class="message">
