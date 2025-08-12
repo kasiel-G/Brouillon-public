@@ -176,6 +176,7 @@ footer .logo #logo2  span{
     color: #D71313;
     position: relative;
     left: 2vw;
+    top: 1vw;
 }
 .linkboxs{
     display: flex;

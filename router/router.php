@@ -2,7 +2,7 @@
 function router (){
     
     $uri = $_SERVER['REQUEST_URI'];
-    echo $uri;
+    // echo $uri;
 
     if (isset($_GET) && !empty($_GET)) {
         $index = strpos($uri, '?', 0);
