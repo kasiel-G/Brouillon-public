@@ -1,6 +1,6 @@
 <header id="header">
         <label for="checkbutton">
-            <img src="http://localhost:8000/public/assets/IMG/Menu-icon.webp" alt="Menu-icon" id="menu-icon">
+            <img src="<?= APP_URL ;?>/public/assets/IMG/Menu-icon.webp" alt="Menu-icon" id="menu-icon">
         </label>
         <input type="checkbox" name="checkbutton" id="checkbutton">
         <nav>
@@ -12,7 +12,7 @@
         </nav>
         <div class="menu">
             <div class="head">
-                <img src="http://localhost:8000/public/assets/IMG/Close-icon.webp" alt="Close-icon" id="close-icon">
+                <img src="<?= APP_URL ;?>/public/assets/IMG/Close-icon.webp" alt="Close-icon" id="close-icon">
                 <h1>sch<br><span>wa</span></h1>
             </div>
             <div class="items">

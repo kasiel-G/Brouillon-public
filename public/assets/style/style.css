@@ -180,7 +180,7 @@ footer .logo #logo2  span{
 }
 .linkboxs{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     width: 100%;
     margin-top: 1vw;
     margin-bottom: 1.5vw;
@@ -188,26 +188,28 @@ footer .logo #logo2  span{
 }
 .linkboxs li{
     list-style: none;
-    /* padding: 1vw; */
-    margin-bottom: 1.5vw;
+
+    margin-bottom: 1.6vw;
 }
-.linkboxs a{
-    color: #EEEEEE;
+.linkboxs a {
+    color: #fff;
     text-decoration: none;
-    font-size: 1.5vw;
-    /* transition: 1s ease-in-out; */
-    /* font-weight: bold; */
+    font-size: 1.3vw;
+    font-weight: bold;
+    transition: color 0.3s ease-in-out, text-shadow 0.3s ease-in-out;
 }
+
 footer .linkboxs a:hover{
     color: #F0DE36;
+    text-shadow: 0 0 5px #F0DE36, 0 0 10px #FF4D4D;
     text-decoration: underline;
 }
 footer h5{
-    color: #EEEEEE;
-    font-size: 2vw;
+    color: #D71313;
+    font-size: 2.3vw;
     margin-bottom: 1.5vw;
-    text-decoration: underline;
-    text-align: center;
+    /* text-decoration: underline; */
+    /* text-align: center; */
 }
 .socials img{
     width: 2vw;
@@ -217,22 +219,29 @@ footer h5{
     top: .5vw;
 
 }
+.Support{
+    padding: 3vw;
+    /* border: #EEEEEE 1px solid; */
+    /* text-transform: capitalize; */
+    width: 25vw;
+    height: 20vw;
+}
 .socials {
     padding: 3vw;
-    border: #EEEEEE 1px solid;
+    /* border: #EEEEEE 1px solid; */
     text-transform: capitalize;
     width: 25vw;
     height: 20vw;
 }
 .links{
     padding: 3vw;
-    border: #EEEEEE 1px solid;
+    /* border: #EEEEEE 1px solid; */
     width: 25vw;
     height: 20vw;
 }
 .message{
     padding: 3vw;
-    border: #EEEEEE 1px solid;
+    /* border: #EEEEEE 1px solid; */
     width: 25vw;
     height: 20vw;
 }
@@ -248,7 +257,18 @@ footer h5{
     padding: 1vw;
     /* background-color: #0D1282; */
 }
+.footer-bottom {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 1.2em;
+    border-top: 2px solid #fff;
+    padding-top: 15px;
+    background-color: #0D1282;
+    font-weight: bold;
+}
+
 /* css acceuil */
+
 .acceuil {
     width: 100%;
     display: flex;

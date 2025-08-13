@@ -1,6 +1,8 @@
 <?php
 require 'config/app.php';
 require 'router/router.php';
+require 'router/links.php';
+$links = linkRouter();
 $page = router();
 ?>
 <!DOCTYPE html>
@@ -24,9 +26,9 @@ $page = router();
     <?php
         require 'app/views/INC/footer.php';
     ?>
-    <script src="./public/assets/JS/index.js"></script>
+    <script src="<?= $links ;?>/assets/JS/index.js"></script>
     <script src="./public/assets/JS/aos.js"></script>
-    <script src="../../../public/assets/JS/index.js"></script>
+    <!-- <script src="../../../public/assets/JS/index.js"></script> -->
 
     <script>
         AOS.init();
