@@ -6,7 +6,7 @@
         <nav>
             <ul>
                 <li><a href="/login/" class="login">Log in</a></li>
-                <li><a href="" class="start">start learning</a></li>
+                <li><a href="" class="start">Connexion</a></li>
                 <li class="logo"><a href="" id="logo">sch<br><span>wa</span></a></li>
             </ul>
         </nav>
