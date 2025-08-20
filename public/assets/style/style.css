@@ -26,12 +26,12 @@ header nav ul{
 header nav ul li a{
     color: #0D1282;
     text-decoration: none;
-    font-size: 3vw;
+    font-size: 2.5vw;
 }
 .logo{
     background-color: #0D1282;
     border-radius: 5%;
-    padding: 1vw;
+    padding: .5vw;
     font-weight: bold;
 }
 header nav ul li #logo{
@@ -50,7 +50,7 @@ header nav ul li span{
     color: #0D1282;
     padding: 1vw 1.5vw;
     border-radius: 3VW;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     position: relative;
     top: 1.5vw;
     font-weight: bold;
@@ -61,7 +61,7 @@ header nav ul li span{
     transition: 0.3s ease-in-out;
 }
 .login{
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     /* font-weight: bold; */
     color: #EEEEEE;
     position: relative;
@@ -75,12 +75,17 @@ header nav ul li span{
 input[type="checkbox"]{
     display: none;
 }
+#menu-icon{
+    width: 2.5vw;
+    height: 2.5vw;
+}
 #close-icon{
     display: none;
-    width: 3vw;
-    height: 3vw;
+    width: 2.5vw;
+    height: 2.5vw;
     position: relative;
     top: 1.5vw;
+    left: -.5vw;
 }
 .menu{
     z-index: 1000;
@@ -108,7 +113,7 @@ input[type="checkbox"]{
 .menu .items li a{
     color: #0D1282;
     text-decoration: none;
-    font-size: 1.6vw;
+    font-size: 1.5vw;
     font-style: italic;
 }
 .head{
@@ -116,7 +121,7 @@ input[type="checkbox"]{
     background-color: #0D1282;
     display: flex;
     justify-content: space-around;
-    padding: 1.5vw 0;
+    padding: .5vw 0;
 }
 .head h1{
     /* background: #11468F; */
@@ -160,12 +165,12 @@ footer{
 footer .logo{
     background-color: #0D1282;
     border-radius: 5%;
-    padding: 1vw;
+    padding: .5vw;
     font-weight: bold;
     text-align: center;
 }
 footer .logo #logo2{
-    font-size: 3vw;
+    font-size: 2.5vw;
     line-height: 1vw;
     color: #F0DE36;
     position: relative;
@@ -175,8 +180,8 @@ footer .logo #logo2{
 footer .logo #logo2  span{
     color: #D71313;
     position: relative;
-    left: 2vw;
-    top: 1vw;
+    left: 1.5vw;
+    top: .5vw;
 }
 .linkboxs{
     display: flex;
@@ -499,7 +504,7 @@ footer h5{
     width: 100%;
     padding: 1vw;
     margin-bottom: 1.5vw;
-    border-radius: 3vw;
+    border-radius: 1.5vw;
     border: 1px solid #0D1282;
     font-size: 1.6vw;
 }
@@ -533,4 +538,112 @@ footer h5{
     background-color: #D71313;
     color: #F0DE36;
     transition: 0.3s ease-in-out;
+}
+
+/* connexion */
+#connexion {
+    margin-top: 10vw;
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100vh;
+    text-align: center;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    /* background: linear-gradient(135deg, #eeee, #0D1282,#D71313); */
+    background:url(../IMG/study\ group2.jpg);
+    background-size: cover;
+    background-position: center center;
+    ;
+}
+
+.connexion-image {
+    width: 30vw;
+    border-radius: 15%;
+    margin-bottom: 20px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+#connexion form {
+    background:#0b36b7;
+    /* background: linear-gradient(45deg,#fff,#121774,#121774,#0D1282,#fff); */
+    /* background: #0D1282; */
+    padding: 20px 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(59, 51, 51, 0.2);
+    width: 40vw;
+    /* height: 40vw; */
+}
+
+#connexion form input {
+    width: 100%;
+    padding: 1.5vw;
+    margin: 1.5vw 0;
+    border: 1px solid #ccc;
+    border-radius: 1.5vw;
+    font-weight: bold;
+    font-size: 1.3vw;
+}
+
+form button {
+    width: 100%;
+    padding: 1vw;
+    /* background-color: #D71313; */
+    background-color: #F0DE36;
+    color: #0D1282;
+    /* color: #fff; */
+    border: none;
+    border-radius: 2.5vw;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin: 1.5vw 0;
+    font-size: 1.8vw;
+    font-weight: bold;
+}
+
+form button:hover {
+    background-color: #D71313;
+    color: #F0DE36;
+}
+
+form h2 {
+    /* margin-bottom: 20px; */
+    color: #fff;
+    font-size: 1.8vw;
+    text-align: left;
+    font-weight: 100;
+}
+.social-medias {
+    display: flex;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    width: 40%;
+    margin: 5px auto;
+    /* background: #D71313; */
+}
+
+.social-medias a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.3vw;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+    font-weight: bold;
+}
+.social-medias img {
+    height: 25px;
+    width: 25px;
+}
+.social-medias a:hover {
+    color: #D71313;
+}
+form .brand{
+    font-weight: bold;
+    color: #F0DE36;
+}
+form .brand2{
+    color: #D71313;
 }

@@ -5,8 +5,8 @@
         <input type="checkbox" name="checkbutton" id="checkbutton">
         <nav>
             <ul>
-                <li><a href="/login/" class="login">Log in</a></li>
-                <li><a href="" class="start">Connexion</a></li>
+                <li><a href="/login/" class="login">Inscription</a></li>
+                <li><a href="/connexion/" class="start">Apprendre</a></li>
                 <li class="logo"><a href="" id="logo">sch<br><span>wa</span></a></li>
             </ul>
         </nav>
@@ -19,7 +19,8 @@
                 <li><a href="">nos leçons</a></li>
                 <li><a href="">nos langues</a></li>
                 <li><a href="">Aide et assistances</a></li>
-                <li><a href=""> propos</a></li>
+                <li><a href=""> à propos</a></li>
+                <li><a href="/">Revenir à l'acceuil</a></li>
             </div>
         </div>
     </header>
