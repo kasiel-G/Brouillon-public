@@ -5,7 +5,7 @@
         <div class="inscri-box">
             <h2>C'est ici que tout commence</h2>
             <p>Veuillez remplir le formulaire pour créer votre compte</p>
-            <form action="">
+            <form id="form-inscri" method="POST" enctype="multipart/form-data">
                 <div class="from-inscri-head">
                     <img src="" alt="">
                     <div class="boxbox">
