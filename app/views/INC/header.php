@@ -20,7 +20,7 @@
                 <li><a href="">nos langues</a></li>
                 <li><a href="">Aide et assistances</a></li>
                 <li><a href=""> à propos</a></li>
-                <li><a href="/">Revenir à l'acceuil</a></li>
+                <li><a href="/">Revenir à l'accueil</a></li>
             </div>
         </div>
     </header>

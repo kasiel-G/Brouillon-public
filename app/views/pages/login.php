@@ -1,40 +1,56 @@
 
 <section id="overlay"></section>
-<section id="inscription" class="inscription">
-        <img src="../../../public/assets/IMG/presentatrice 1.png" alt="">
-        <div class="loginbox">
-            <div class="IntLogin">
-                <h2> Inscris-toi pour avoir accès a nos cours gratuits</h2>
-                <div class="google">
-                    <img src="../../../public/assets/IMG/google-icon-svgrepo-com.svg" alt="Google-icon">
-                    <p>Inscris-toi avec Google</p>
+
+<section id="inscri">
+        <div class="inscri-box">
+            <h2>C'est ici que tout commence</h2>
+            <p>Veuillez remplir le formulaire pour créer votre compte</p>
+            <form action="">
+                <div class="from-inscri-head">
+                    <img src="" alt="">
+                    <div class="boxbox">
+                        <label for="PDP">Choisir une photo de profile</label><br>
+                        <input type="file" name="PDP" id="PDP">
+                    </div>
                 </div>
-                <div class="facebook">
-                    <img src="../../../public/assets/IMG/facebook-icon-white-logo-svgrepo-com.svg" alt="Facebook-icon" style="width: 2.5vw;">
-                    <p>Inscris-toi avec Facebook</p>
+                <div class="form-inscrit-IP">
+                    <h3>Informations personnelles</h3>
+
+                    <label for="nom">Nom</label>
+                    <label for="prenom" class="prenom">Prénom</label> <br>
+                    
+                    <input type="text" name="nom" id="nom" placeholder="Entrez votre nom">
+                    <input type="text" name="prenom" id="prenom" placeholder="Entrez votre prénom">
+
+                    <label for="age">Age</label>
+                    <input type="number" name="age" id="age" placeholder="Entrez votre age" min="14">
                 </div>
-            </div>
-            <form action="" class="formulaire">
-                <h5> Inscris-toi via email</h5>
-                <label for="nom">Saisis ton nom</label>
-                <input type="text" name="nom" id="nom" placeholder="Ton nom" required>
-                <label for="prenom">Saisis ton prénom</label>
-                <input type="text" name="prenom" id="prenom" placeholder="Ton prénom" required>
-                <label for="email">Saisis ton email</label>
-                <input type="email" name="email" id="email" placeholder="Ton email" required>
-                <label for="password">Saisis ton mot de passe</label>
-                <input type="password" name="password" id="password" placeholder="Ton mot de passe" required>
-                <label for="confirm-password">Confirme ton mot de passe</label>
-                <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirme ton mot de passe" required>
-                <div class="notice">
-                    <p>Pour plus de securite ton mot de passe doit :</p>
-                    <ul>
-                        <li>avoir 8 caractère ou plus</li>
-                        <li> contenir des caractères spéciaux et des chiffres</li>
-                    </ul>
+                
+                <div class="form-inscrit-coordonnees">
+                    <h3>Coordonnées</h3>
+
+                    <label for="email">Email</label>
+                    <label for="Adresse" class="prenom">Adresse</label><br>
+                    <input type="email" name="email" id="email" placeholder="Entrez votre email">
+
+                    <input type="text" name="Adresse" id="password" placeholder="Entrez votre adresse">
+
+                    <label for="tel">Téléphone</label><br>
+                    <input type="text" name="tel" id="tel" placeholder="Entrez votre numéro de téléphone">
                 </div>
-                <button type="submit">s'inscrire</button>
+                <div class="form-inscrit-MDP">
+                    <h3>Mot de passe</h3>
+
+                    <label for="password">Mot de passe</label>
+                    <label for="confirm-password" class="prenom2">Confirmer le mot de passe</label><br>
+                    <input type="password" name="password" id="password" placeholder="Entrez votre mot de passe">
+
+                    <input type="password" name="confirm-password" id="confirm-password" placeholder="Confirmez le mot de passe">
+                </div>
+                <div class="form-inscrit-btn">
+                    <button type="submit">Créer un compte</button>
+                    <p>Vous avez déjà un compte ? <a href="/connexion/">Connectez-vous</a></p>
+                </div>
             </form>
         </div>
     </section>
-
